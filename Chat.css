@@ -1,0 +1,88 @@
+.chat {
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chat__headerInfo {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo h3 {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat__headerInfo p {
+    color: grey;
+}
+
+.chat__headerRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chat__body {
+    background-image: url("https://theabbie.github.io/blog/assets/official-whatsapp-background-image.jpg");
+    flex: 1;
+    background-position: center;
+    padding: 30px;
+    overflow: -moz-hidden-unscrollable scroll;
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: repeat;
+}
+
+.chat__name {
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    color: red;
+    font-size: xx-small;
+}
+
+.chat__message {
+    position: relative;
+    background-color: cadetblue;
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.chat__receiver {
+    background-color: chartreuse;
+    margin-left: auto;
+}
+
+.chat__timestamp {
+    margin-right: 10px;
+    font-size: xx-small;
+}
+
+.chat__footer {
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+}
+
+.chat__footer > form {
+    background-color: lime;
+}
+
+.chat__footer > form > button {
+    display: none;
+}

@@ -1,0 +1,14 @@
+.sidebarChat {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(187,110,110,0.5);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(187,110,110,0.5);
+-moz-box-shadow: 10px 10px 5px 0px rgba(187,110,110,0.5);
+}
+
+.sidebarChat:hover {
+    background-color: rgb(201, 183, 201);
+}
